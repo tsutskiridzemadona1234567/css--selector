@@ -1,0 +1,48 @@
+
+body{
+  background-color:  #DEDEDE;
+  font-family: "chemi fonti";
+  src: url("./Inter-Regular.ttf");
+}
+.parent{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 57px;
+  border: 2x solid #FFD43A;
+  width: 383px;
+  height: 515px;
+  border-radius: 4px;
+  background-color:  black;
+}
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+label{
+  margin-left: 45px;
+  color: white;
+}
+input{
+  width: 275px;
+  height: 30px;
+  background-color: #A9A9A9;
+  color: #FFD43A;
+  margin-left: 45px;
+  padding: 10px;  
+  border-radius: 4px;
+  outline: none;
+}
+.submit{
+  width: 295px;
+  height: 45px;
+  color: black;
+  background-color: #FFD43A;
+  border-radius: 10px;
+}
+input[type="Password"]{
+  color: #FF0000;
+  border: 1px solid #FF0000;
+}
+.text{
+  height: 90px;
+}
