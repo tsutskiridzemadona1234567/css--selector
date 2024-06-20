@@ -8,7 +8,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   margin-top: 57px;
-  border: 2x solid #FFD43A;
+  border: 2px dashed #FFD43A;
   width: 383px;
   height: 515px;
   border-radius: 4px;
@@ -31,6 +31,8 @@ input{
   padding: 10px;  
   border-radius: 4px;
   outline: none;
+  font-weight: bolder;
+  border: none;
 }
 .submit{
   width: 295px;
@@ -39,10 +41,20 @@ input{
   background-color: #FFD43A;
   border-radius: 10px;
 }
-input[type="Password"]{
-  color: #FF0000;
-  border: 1px solid #FF0000;
-}
-.text{
+.text::placeholder {
+  padding-top: 100px;
   height: 90px;
+}
+.password{
+  border: 2px solid red;
+  color: red;
+}
+textarea{
+  margin-left: 45px; 
+  width: 295px;
+  height: 98px;
+  background-color: #A9A9A9 ;
+  border-radius: 4px;
+  color: yellow;
+  font-weight: bolder;
 }
