@@ -44,6 +44,7 @@ input{
 .text::placeholder {
   padding-top: 100px;
   height: 90px;
+  color: yellow;
 }
 .password{
   border: 2px solid red;
