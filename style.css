@@ -41,7 +41,7 @@ input{
   background-color: #FFD43A;
   border-radius: 10px;
 }
-.text::placeholder {
+.text::placeholder, .number::placeholder {
   padding-top: 100px;
   height: 90px;
   color: yellow;
