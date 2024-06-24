@@ -44,7 +44,7 @@ input{
 .text::placeholder, .number::placeholder {
   padding-top: 100px;
   height: 90px;
-  color: yellow;
+  color: #FFD43A;
 }
 .password{
   border: 2px solid red;
@@ -56,6 +56,6 @@ textarea{
   height: 98px;
   background-color: #A9A9A9 ;
   border-radius: 4px;
-  color: yellow;
+  color: #FFD43A;
   font-weight: bolder;
 }
